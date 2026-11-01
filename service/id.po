@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 17:52+0000\n"
-"PO-Revision-Date: 2026-10-20 15:13+0000\n"
+"PO-Revision-Date: 2026-11-01 05:13+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
 "service-master/id/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. writes default to system making it persistent
 #: service/YaST2/lib/bootloader/sections.rb:53
 msgid "Failed to set default GRUB2 boot entry:"
-msgstr ""
+msgstr "Gagal menetapkan entri boot default GRUB2:"
 
 #. Implementation for the API method #Probe.
 #: service/lib/agama/dbus/storage/dasd.rb:65
@@ -481,15 +481,16 @@ msgstr "Menginstal bootloader"
 #. @return [Symbol] Action chosen by the user (:retry, :skip, :abort)
 #: service/lib/agama/storage/finisher.rb:186
 #: service/lib/agama/storage/finisher.rb:222
-#, fuzzy
 msgid "Writing bootloader configuration failed."
-msgstr "Menulis sysconfig bootloader"
+msgstr "Gagal menulis konfigurasi bootloader."
 
 #: service/lib/agama/storage/finisher.rb:223
 msgid ""
 "Bootloader installation failed. Do you want to retry, skip or abort the "
 "installation?"
 msgstr ""
+"Instalasi bootloader gagal. Apakah Anda ingin mencoba lagi, melewati langkah "
+"ini, atau membatalkan instalasi?"
 
 #. Step to finish the Y2Storage configuration
 #: service/lib/agama/storage/finisher.rb:243
