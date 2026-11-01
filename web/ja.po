@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-31 10:14+0000\n"
-"PO-Revision-Date: 2026-10-31 07:13+0000\n"
+"PO-Revision-Date: 2026-11-01 02:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -836,27 +836,24 @@ msgid "The terminal requires a larger screen size"
 msgstr "端末を使用するには、さらに大きな画面サイズにする必要があります"
 
 #: src/components/form/ArrayField.tsx:67
-#, fuzzy
 msgid ""
 "Enter to add, Backspace or Delete to remove, arrow keys to navigate entries, "
 "Escape to exit"
 msgstr ""
-"Enter キーまたは Tab キーで追加、 Backspace キーまたは Delete キーで削除、矢"
-"印キーで項目間の移動、 Escape キーで終了します"
+"Enter キーで追加、 Backspace キーまたは Delete キーで削除、矢印キーで項目間の"
+"移動、 Escape キーで終了します"
 
 #. TRANSLATORS: keyboard usage hint when entries exist.
 #: src/components/form/ArrayField.tsx:89
-#, fuzzy
 msgid "Enter to add, Backspace or Delete to remove, arrow keys to navigate"
 msgstr ""
-"Enter キーまたは Tab キーで追加、 Backspace キーまたは Delete キーで削除、矢"
-"印キーで項目間を移動します"
+"Enter キーで追加、 Backspace キーまたは Delete キーで削除、矢印キーで項目間を"
+"移動します"
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
 #: src/components/form/ArrayField.tsx:91
-#, fuzzy
 msgid "Enter to add"
-msgstr "Enter キーまたは Tab キーで追加します"
+msgstr "Enter キーで追加します"
 
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
 #: src/components/form/ArrayField.tsx:363
