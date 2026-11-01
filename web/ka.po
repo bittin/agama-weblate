@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-31 10:14+0000\n"
-"PO-Revision-Date: 2026-10-10 03:13+0000\n"
+"PO-Revision-Date: 2026-11-01 05:13+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ka/>\n"
@@ -442,9 +442,8 @@ msgid "Make sure that the passsword is correct and try again."
 msgstr "დარწმუნდით, რომ პაროლი სწორია და თავიდან სცადეთ."
 
 #: src/components/core/LoginPage.tsx:44
-#, fuzzy
 msgid "Could not authenticate against the server"
-msgstr "სერვერთან ავთენტიკაცია შეუძლებელია."
+msgstr "სერვერთან ავთენტიკაცია შეუძლებელია"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
@@ -831,9 +830,8 @@ msgstr ""
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
 #: src/components/form/ArrayField.tsx:91
-#, fuzzy
 msgid "Enter to add"
-msgstr "დასამატებლად დააჭირეთ Enter-ს, ან Tab-ს"
+msgstr "დასამატებლად დააჭირეთ Enter-ს"
 
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
 #: src/components/form/ArrayField.tsx:363
@@ -2049,9 +2047,8 @@ msgstr "სტატიკური მისამართები და ნ
 
 #. TRANSLATORS: description for the disabled IP configuration mode.
 #: src/components/network/connection-form/IpFields.tsx:71
-#, fuzzy
 msgid "No IP configuration for this protocol"
-msgstr "ამ დისკის კონფიგურაციის წაშლა"
+msgstr "ამ პროტოკოლს IP კონფიგურაცია არ აქვს"
 
 #. TRANSLATORS: label for the IPv4 or IPv6 settings dropdown.
 #: src/components/network/connection-form/IpFields.tsx:103
