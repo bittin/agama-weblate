@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-31 10:14+0000\n"
-"PO-Revision-Date: 2026-10-06 17:20+0000\n"
+"PO-Revision-Date: 2026-11-01 05:13+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
 "web/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #. TRANSLATORS: accessible name for the button that opens the appearance settings
 #: src/components/core/AppearanceSettings.tsx:63
@@ -461,9 +461,8 @@ msgid "Make sure that the passsword is correct and try again."
 msgstr "Pastikan kata sandi benar dan coba lagi."
 
 #: src/components/core/LoginPage.tsx:44
-#, fuzzy
 msgid "Could not authenticate against the server"
-msgstr "Tidak dapat mengautentikasi terhadap server."
+msgstr "Tidak dapat melakukan autentikasi ke server"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
@@ -835,27 +834,24 @@ msgid "The terminal requires a larger screen size"
 msgstr "Terminal memerlukan ukuran layar yang lebih besar"
 
 #: src/components/form/ArrayField.tsx:67
-#, fuzzy
 msgid ""
 "Enter to add, Backspace or Delete to remove, arrow keys to navigate entries, "
 "Escape to exit"
 msgstr ""
-"Masukkan atau tekan Tab untuk menambah, Backspace atau Delete untuk "
-"menghapus, tombol panah untuk menavigasi entri, Escape untuk keluar"
+"Tekan Enter untuk menambahkan, Backspace atau Delete untuk menghapus, tombol "
+"panah untuk berpindah antarentri, Escape untuk keluar"
 
 #. TRANSLATORS: keyboard usage hint when entries exist.
 #: src/components/form/ArrayField.tsx:89
-#, fuzzy
 msgid "Enter to add, Backspace or Delete to remove, arrow keys to navigate"
 msgstr ""
-"Masukkan atau tekan Tab untuk menambah, Backspace atau Delete untuk "
-"menghapus, tombol panah untuk menavigasi"
+"Tekan Enter untuk menambahkan, Backspace atau Delete untuk menghapus, tombol "
+"panah untuk berpindah"
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
 #: src/components/form/ArrayField.tsx:91
-#, fuzzy
 msgid "Enter to add"
-msgstr "Masukkan atau tekan Tab untuk menambah"
+msgstr "Tekan Enter untuk menambahkan"
 
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
 #: src/components/form/ArrayField.tsx:363
@@ -2083,9 +2079,8 @@ msgstr "Alamat statis dan gateway"
 
 #. TRANSLATORS: description for the disabled IP configuration mode.
 #: src/components/network/connection-form/IpFields.tsx:71
-#, fuzzy
 msgid "No IP configuration for this protocol"
-msgstr "Hapus konfigurasi untuk disk ini"
+msgstr "Tidak ada konfigurasi IP untuk protokol ini"
 
 #. TRANSLATORS: label for the IPv4 or IPv6 settings dropdown.
 #: src/components/network/connection-form/IpFields.tsx:103
