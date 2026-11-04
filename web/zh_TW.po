@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-31 10:14+0000\n"
+"POT-Creation-Date: 2026-11-04 08:57+0000\n"
 "PO-Revision-Date: 2026-07-27 04:12+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (Taiwan) <https://l10n.opensuse.org/projects/agama/"
@@ -226,7 +226,7 @@ msgstr ""
 #. TRANSLATORS: action that closes the terminal, ending the session
 #: src/components/core/InstallationFailed.tsx:60
 #: src/components/core/InstallerOptionsMenu.tsx:157
-#: src/components/core/TerminalPane.tsx:373
+#: src/components/core/TerminalShell.tsx:38
 #: src/components/core/TerminalUnavailable.tsx:56
 msgid "Close terminal"
 msgstr "關閉終端機"
@@ -710,56 +710,62 @@ msgstr "安裝程式介面不再可用。"
 msgid "You can safely close this window."
 msgstr "您可安全關閉此視窗。"
 
+#. TRANSLATORS: accessible text while the terminal panel is loading
+#: src/components/core/TerminalDock.tsx:145
+#, fuzzy
+msgid "Loading terminal"
+msgstr "正在載入儲存"
+
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
-#: src/components/core/TerminalDock.tsx:139
+#: src/components/core/TerminalDock.tsx:162
 msgid "Resize terminal"
 msgstr "調整終端機大小"
 
 #. TRANSLATORS: the Control key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:62
+#: src/components/core/TerminalPane.tsx:60
 msgid "Ctrl"
 msgstr ""
 
 #. TRANSLATORS: the Shift key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:64
+#: src/components/core/TerminalPane.tsx:62
 msgid "Shift"
 msgstr ""
 
 #. TRANSLATORS: the Enter (or Return) key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:66
+#: src/components/core/TerminalPane.tsx:64
 msgid "Enter"
 msgstr ""
 
 #. TRANSLATORS: the space bar, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:68
+#: src/components/core/TerminalPane.tsx:66
 msgid "Space"
 msgstr ""
 
 #. TRANSLATORS: the tabulator key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:70
+#: src/components/core/TerminalPane.tsx:68
 msgid "Tab"
 msgstr ""
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
-#: src/components/core/TerminalPane.tsx:92
+#: src/components/core/TerminalPane.tsx:90
 msgid "Decrease font size"
 msgstr "縮小字型大小"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
-#: src/components/core/TerminalPane.tsx:94
+#: src/components/core/TerminalPane.tsx:92
 msgid "Increase font size"
 msgstr "增加字型大小"
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
-#: src/components/core/TerminalPane.tsx:96
+#: src/components/core/TerminalPane.tsx:94
 msgid "Clear terminal"
 msgstr "清除終端機"
 
 #. TRANSLATORS: how to move the keyboard focus out of the terminal, where
 #. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
 #. Ctrl, Shift and L keys, pressed together, and are shown as keys.
-#: src/components/core/TerminalPane.tsx:143
+#: src/components/core/TerminalPane.tsx:141
 #, javascript-format
 msgid "%1$s+%2$s+%3$s to move focus out"
 msgstr ""
@@ -768,7 +774,7 @@ msgstr ""
 #. before entering the shell. %1$s and %2$s are the Enter and Space keys,
 #. either of which starts typing in the shell, and %3$s is the Tab key, which
 #. moves on to whatever comes after the terminal. All three are shown as keys.
-#: src/components/core/TerminalPane.tsx:167
+#: src/components/core/TerminalPane.tsx:165
 #, javascript-format
 msgid "Press %1$s or %2$s to type here, or %3$s to move on."
 msgstr ""
@@ -776,7 +782,7 @@ msgstr ""
 #. TRANSLATORS: shown right below the sentence above, as the way back out of
 #. the shell once inside. %1$s, %2$s and %3$s are the Ctrl, Shift and L keys,
 #. pressed together, and are shown as keys.
-#: src/components/core/TerminalPane.tsx:171
+#: src/components/core/TerminalPane.tsx:169
 #, javascript-format
 msgid "Then %1$s+%2$s+%3$s to move out."
 msgstr ""
@@ -784,34 +790,34 @@ msgstr ""
 #. TRANSLATORS: accessible name of the terminal surface, where the shell
 #. output is shown and typed into
 #. TRANSLATORS: accessible name of the terminal panel region
-#: src/components/core/TerminalPane.tsx:210
-#: src/components/core/TerminalPane.tsx:276
+#: src/components/core/TerminalPane.tsx:208
+#: src/components/core/TerminalShell.tsx:80
 msgid "Terminal"
 msgstr "終端機"
 
-#: src/components/core/TerminalPane.tsx:294
-#: src/components/layout/Header.tsx:191
-#, fuzzy
-msgid "Skip to terminal"
-msgstr "顯示終端機"
-
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
-#: src/components/core/TerminalPane.tsx:399
+#: src/components/core/TerminalPane.tsx:310
 msgid "Minimize terminal"
 msgstr "最小化終端機"
 
 #. TRANSLATORS: tooltip and accessible name for the button that expands the
 #. collapsed terminal panel back to its full size
-#: src/components/core/TerminalPane.tsx:402
+#: src/components/core/TerminalPane.tsx:313
 msgid "Restore terminal"
 msgstr "還原終端機"
 
 #. TRANSLATORS: one-line summary of what the terminal is for
-#: src/components/core/TerminalPane.tsx:406
+#: src/components/core/TerminalPane.tsx:317
 msgid ""
 "Linux command-line with administrative privileges on the installer system."
 msgstr "安裝程式系統中具有管理員權限的 Linux 指令列。"
+
+#: src/components/core/TerminalShell.tsx:98
+#: src/components/layout/Header.tsx:191
+#, fuzzy
+msgid "Skip to terminal"
+msgstr "顯示終端機"
 
 #. TRANSLATORS: shown when the screen is too small to use the terminal
 #: src/components/core/TerminalUnavailable.tsx:48
@@ -7034,9 +7040,6 @@ msgstr "迴路"
 
 #~ msgid "Finished"
 #~ msgstr "已完成"
-
-#~ msgid "Loading storage"
-#~ msgstr "正在載入儲存"
 
 #~ msgid "Pre-installation checks"
 #~ msgstr "安裝前檢查"

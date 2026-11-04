@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-31 10:14+0000\n"
+"POT-Creation-Date: 2026-11-04 08:57+0000\n"
 "PO-Revision-Date: 2026-10-20 11:59+0000\n"
 "Last-Translator: Feike Donia <feikedonia@proton.me>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
@@ -225,7 +225,7 @@ msgstr "Afsluiten"
 #. TRANSLATORS: action that closes the terminal, ending the session
 #: src/components/core/InstallationFailed.tsx:60
 #: src/components/core/InstallerOptionsMenu.tsx:157
-#: src/components/core/TerminalPane.tsx:373
+#: src/components/core/TerminalShell.tsx:38
 #: src/components/core/TerminalUnavailable.tsx:56
 msgid "Close terminal"
 msgstr "Terminal sluiten"
@@ -716,50 +716,56 @@ msgstr "De installatie-interface is niet langer beschikbaar."
 msgid "You can safely close this window."
 msgstr "U kunt dit venster veilig sluiten."
 
+#. TRANSLATORS: accessible text while the terminal panel is loading
+#: src/components/core/TerminalDock.tsx:145
+#, fuzzy
+msgid "Loading terminal"
+msgstr "Leest bestand..."
+
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
-#: src/components/core/TerminalDock.tsx:139
+#: src/components/core/TerminalDock.tsx:162
 #, fuzzy
 msgid "Resize terminal"
 msgstr "Open terminal"
 
 #. TRANSLATORS: the Control key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:62
+#: src/components/core/TerminalPane.tsx:60
 msgid "Ctrl"
 msgstr "Ctrl"
 
 #. TRANSLATORS: the Shift key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:64
+#: src/components/core/TerminalPane.tsx:62
 msgid "Shift"
 msgstr "Shift"
 
 #. TRANSLATORS: the Enter (or Return) key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:66
+#: src/components/core/TerminalPane.tsx:64
 msgid "Enter"
 msgstr "Enter"
 
 #. TRANSLATORS: the space bar, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:68
+#: src/components/core/TerminalPane.tsx:66
 msgid "Space"
 msgstr "Spatie"
 
 #. TRANSLATORS: the tabulator key, as labeled on the keyboard
-#: src/components/core/TerminalPane.tsx:70
+#: src/components/core/TerminalPane.tsx:68
 msgid "Tab"
 msgstr "Tab"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
-#: src/components/core/TerminalPane.tsx:92
+#: src/components/core/TerminalPane.tsx:90
 msgid "Decrease font size"
 msgstr "Kleinere lettergrootte"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
-#: src/components/core/TerminalPane.tsx:94
+#: src/components/core/TerminalPane.tsx:92
 msgid "Increase font size"
 msgstr "Grotere lettergrootte"
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
-#: src/components/core/TerminalPane.tsx:96
+#: src/components/core/TerminalPane.tsx:94
 #, fuzzy
 msgid "Clear terminal"
 msgstr "Open terminal"
@@ -767,7 +773,7 @@ msgstr "Open terminal"
 #. TRANSLATORS: how to move the keyboard focus out of the terminal, where
 #. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
 #. Ctrl, Shift and L keys, pressed together, and are shown as keys.
-#: src/components/core/TerminalPane.tsx:143
+#: src/components/core/TerminalPane.tsx:141
 #, javascript-format
 msgid "%1$s+%2$s+%3$s to move focus out"
 msgstr ""
@@ -776,7 +782,7 @@ msgstr ""
 #. before entering the shell. %1$s and %2$s are the Enter and Space keys,
 #. either of which starts typing in the shell, and %3$s is the Tab key, which
 #. moves on to whatever comes after the terminal. All three are shown as keys.
-#: src/components/core/TerminalPane.tsx:167
+#: src/components/core/TerminalPane.tsx:165
 #, javascript-format
 msgid "Press %1$s or %2$s to type here, or %3$s to move on."
 msgstr ""
@@ -784,7 +790,7 @@ msgstr ""
 #. TRANSLATORS: shown right below the sentence above, as the way back out of
 #. the shell once inside. %1$s, %2$s and %3$s are the Ctrl, Shift and L keys,
 #. pressed together, and are shown as keys.
-#: src/components/core/TerminalPane.tsx:171
+#: src/components/core/TerminalPane.tsx:169
 #, javascript-format
 msgid "Then %1$s+%2$s+%3$s to move out."
 msgstr ""
@@ -792,34 +798,34 @@ msgstr ""
 #. TRANSLATORS: accessible name of the terminal surface, where the shell
 #. output is shown and typed into
 #. TRANSLATORS: accessible name of the terminal panel region
-#: src/components/core/TerminalPane.tsx:210
-#: src/components/core/TerminalPane.tsx:276
+#: src/components/core/TerminalPane.tsx:208
+#: src/components/core/TerminalShell.tsx:80
 msgid "Terminal"
 msgstr "Terminal"
 
-#: src/components/core/TerminalPane.tsx:294
-#: src/components/layout/Header.tsx:191
-msgid "Skip to terminal"
-msgstr "Overslaan naar terminal"
-
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
-#: src/components/core/TerminalPane.tsx:399
+#: src/components/core/TerminalPane.tsx:310
 msgid "Minimize terminal"
 msgstr "Terminal minimaliseren"
 
 #. TRANSLATORS: tooltip and accessible name for the button that expands the
 #. collapsed terminal panel back to its full size
-#: src/components/core/TerminalPane.tsx:402
+#: src/components/core/TerminalPane.tsx:313
 #, fuzzy
 msgid "Restore terminal"
 msgstr "Open terminal"
 
 #. TRANSLATORS: one-line summary of what the terminal is for
-#: src/components/core/TerminalPane.tsx:406
+#: src/components/core/TerminalPane.tsx:317
 msgid ""
 "Linux command-line with administrative privileges on the installer system."
 msgstr ""
+
+#: src/components/core/TerminalShell.tsx:98
+#: src/components/layout/Header.tsx:191
+msgid "Skip to terminal"
+msgstr "Overslaan naar terminal"
 
 #. TRANSLATORS: shown when the screen is too small to use the terminal
 #: src/components/core/TerminalUnavailable.tsx:48
@@ -7381,10 +7387,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Finished"
 #~ msgstr "Voltooien"
-
-#, fuzzy
-#~ msgid "Loading storage"
-#~ msgstr "Leest bestand..."
 
 #~ msgid "Pre-installation checks"
 #~ msgstr "Pre-installatie checks"
