@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-05 14:32+0000\n"
-"PO-Revision-Date: 2026-10-13 20:13+0000\n"
+"PO-Revision-Date: 2026-11-05 17:16+0000\n"
 "Last-Translator: Eugene Krater <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-web/"
 "uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #. TRANSLATORS: accessible name for the button that opens the appearance settings
 #: src/components/core/AppearanceSettings.tsx:63
@@ -464,9 +464,8 @@ msgid "Make sure that the passsword is correct and try again."
 msgstr "Переконайтеся, що Ви ввели правильний пароль і спробуйте знову."
 
 #: src/components/core/LoginPage.tsx:44
-#, fuzzy
 msgid "Could not authenticate against the server"
-msgstr "Не вдалося виконати автентифікацію на сервері."
+msgstr "Не вдалося виконати автентифікацію на сервері"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
@@ -735,9 +734,8 @@ msgstr "Ви можете сміливо закривати це вікно."
 
 #. TRANSLATORS: accessible text while the terminal panel is loading
 #: src/components/core/TerminalDock.tsx:145
-#, fuzzy
 msgid "Loading terminal"
-msgstr "Завантаження сховища"
+msgstr "Завантаження терміналу"
 
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
@@ -849,27 +847,24 @@ msgid "The terminal requires a larger screen size"
 msgstr "Для цього терміналу потрібен екран більшого розміру"
 
 #: src/components/form/ArrayField.tsx:67
-#, fuzzy
 msgid ""
 "Enter to add, Backspace or Delete to remove, arrow keys to navigate entries, "
 "Escape to exit"
 msgstr ""
-"Натисніть Enter або Tab, щоб додати, Backspace або Delete, щоб видалити, "
-"клавіші зі стрілками для переходу між записами, Escape для виходу"
+"Натисніть Enter, щоб додати, Backspace або Delete — щоб видалити, клавіші зі "
+"стрілками — для переходу між записами, Escape — щоб вийти"
 
 #. TRANSLATORS: keyboard usage hint when entries exist.
 #: src/components/form/ArrayField.tsx:89
-#, fuzzy
 msgid "Enter to add, Backspace or Delete to remove, arrow keys to navigate"
 msgstr ""
-"Натисніть Enter або Tab, щоб додати, Backspace або Delete, щоб видалити, "
-"клавіші зі стрілками для навігації"
+"Натисніть Enter, щоб додати, Backspace або Delete — щоб видалити, клавіші зі "
+"стрілками — для навігації"
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
 #: src/components/form/ArrayField.tsx:91
-#, fuzzy
 msgid "Enter to add"
-msgstr "Натисніть Enter або Tab, щоб додати"
+msgstr "Натисніть Enter, щоб додати"
 
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
 #: src/components/form/ArrayField.tsx:363
@@ -2106,9 +2101,8 @@ msgstr "Статичні адреси та шлюз"
 
 #. TRANSLATORS: description for the disabled IP configuration mode.
 #: src/components/network/connection-form/IpFields.tsx:71
-#, fuzzy
 msgid "No IP configuration for this protocol"
-msgstr "Видалити конфігурацію для цього диска"
+msgstr "Для цього протоколу не налаштовано IP-адресу"
 
 #. TRANSLATORS: label for the IPv4 or IPv6 settings dropdown.
 #: src/components/network/connection-form/IpFields.tsx:103
