@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 08:57+0000\n"
+"POT-Creation-Date: 2026-11-05 14:32+0000\n"
 "PO-Revision-Date: 2026-11-01 05:13+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -899,7 +899,7 @@ msgid "%s moved to input for editing."
 msgstr "%s dipindahkan ke input untuk diedit."
 
 #: src/components/form/ArrayField.tsx:576
-#: src/components/form/multi-select-field/MultiSelectField.tsx:907
+#: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "Pilih entri untuk mengedit atau menghapusnya. Atau [hapus semua entri tidak "
@@ -939,19 +939,19 @@ msgstr "%d lainnya"
 
 #. TRANSLATORS: accessible name of the arrow that opens the list of
 #. values a field offers.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:784
+#: src/components/form/multi-select-field/MultiSelectField.tsx:785
 msgid "Show options"
 msgstr "Tampilkan pilihan"
 
 #. TRANSLATORS: accessible name of the button that empties a
 #. field holding several values.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:853
+#: src/components/form/multi-select-field/MultiSelectField.tsx:854
 msgid "Clear all"
 msgstr "Hapus semua"
 
 #. TRANSLATORS: shown in place of the options when the text the
 #. user typed leaves nothing to choose from.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:878
+#: src/components/form/multi-select-field/MultiSelectField.tsx:879
 msgid "No options match"
 msgstr "Tidak ada pilihan yang cocok"
 
@@ -1282,7 +1282,7 @@ msgstr "Keamanan"
 #: src/components/network/ConnectionDetails.tsx:229
 #: src/components/storage/dasd/DASDTable.tsx:319
 #: src/components/storage/dasd/DASDTable.tsx:514
-#: src/components/storage/iscsi/StatusFilter.tsx:77
+#: src/components/storage/iscsi/StatusFilter.tsx:78
 #: src/components/storage/iscsi/TargetsTable.tsx:473
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:167
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:285
@@ -5032,7 +5032,7 @@ msgstr ""
 "Tidak ada iSCSI Boot Firmware Table (iBFT) yang ditemukan. Initiator dapat "
 "[dikonfigurasi secara manual.]"
 
-#: src/components/storage/iscsi/StatusFilter.tsx:66
+#: src/components/storage/iscsi/StatusFilter.tsx:67
 msgid "Status filter toggle"
 msgstr "Pengalih filter status"
 

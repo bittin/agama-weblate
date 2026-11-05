@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 08:57+0000\n"
+"POT-Creation-Date: 2026-11-05 14:32+0000\n"
 "PO-Revision-Date: 2026-11-03 15:13+0000\n"
 "Last-Translator: Aleksey Fedorov <Aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -905,7 +905,7 @@ msgid "%s moved to input for editing."
 msgstr "%s перемещён в поле ввода для редактирования."
 
 #: src/components/form/ArrayField.tsx:576
-#: src/components/form/multi-select-field/MultiSelectField.tsx:907
+#: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "Выберите записи для редактирования или удаления. Или [удалить все "
@@ -945,19 +945,19 @@ msgstr "ещё %d"
 
 #. TRANSLATORS: accessible name of the arrow that opens the list of
 #. values a field offers.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:784
+#: src/components/form/multi-select-field/MultiSelectField.tsx:785
 msgid "Show options"
 msgstr "Показать параметры"
 
 #. TRANSLATORS: accessible name of the button that empties a
 #. field holding several values.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:853
+#: src/components/form/multi-select-field/MultiSelectField.tsx:854
 msgid "Clear all"
 msgstr "Очистить всё"
 
 #. TRANSLATORS: shown in place of the options when the text the
 #. user typed leaves nothing to choose from.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:878
+#: src/components/form/multi-select-field/MultiSelectField.tsx:879
 msgid "No options match"
 msgstr "Нет подходящих параметров"
 
@@ -1288,7 +1288,7 @@ msgstr "Безопасность"
 #: src/components/network/ConnectionDetails.tsx:229
 #: src/components/storage/dasd/DASDTable.tsx:319
 #: src/components/storage/dasd/DASDTable.tsx:514
-#: src/components/storage/iscsi/StatusFilter.tsx:77
+#: src/components/storage/iscsi/StatusFilter.tsx:78
 #: src/components/storage/iscsi/TargetsTable.tsx:473
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:167
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:285
@@ -5103,7 +5103,7 @@ msgstr ""
 "Таблица прошивки iSCSI Boot (iBFT) не найдена. Инициатор можно [настроить "
 "вручную.]"
 
-#: src/components/storage/iscsi/StatusFilter.tsx:66
+#: src/components/storage/iscsi/StatusFilter.tsx:67
 msgid "Status filter toggle"
 msgstr "Вкл./выкл. фильтр статуса"
 

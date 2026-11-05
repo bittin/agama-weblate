@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 08:57+0000\n"
+"POT-Creation-Date: 2026-11-05 14:32+0000\n"
 "PO-Revision-Date: 2026-07-27 04:12+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/agama/"
@@ -887,7 +887,7 @@ msgid "%s moved to input for editing."
 msgstr "%s 已移入输入框供编辑。"
 
 #: src/components/form/ArrayField.tsx:576
-#: src/components/form/multi-select-field/MultiSelectField.tsx:907
+#: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr "选中条目即可编辑或将其去除，您也可[去除所有无效条目]。"
 
@@ -925,21 +925,21 @@ msgstr "展开说明"
 
 #. TRANSLATORS: accessible name of the arrow that opens the list of
 #. values a field offers.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:784
+#: src/components/form/multi-select-field/MultiSelectField.tsx:785
 #, fuzzy
 msgid "Show options"
 msgstr "显示全局选项"
 
 #. TRANSLATORS: accessible name of the button that empties a
 #. field holding several values.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:853
+#: src/components/form/multi-select-field/MultiSelectField.tsx:854
 #, fuzzy
 msgid "Clear all"
 msgstr "清除"
 
 #. TRANSLATORS: shown in place of the options when the text the
 #. user typed leaves nothing to choose from.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:878
+#: src/components/form/multi-select-field/MultiSelectField.tsx:879
 #, fuzzy
 msgid "No options match"
 msgstr "没有匹配的软件集"
@@ -1269,7 +1269,7 @@ msgstr "安全性"
 #: src/components/network/ConnectionDetails.tsx:229
 #: src/components/storage/dasd/DASDTable.tsx:319
 #: src/components/storage/dasd/DASDTable.tsx:514
-#: src/components/storage/iscsi/StatusFilter.tsx:77
+#: src/components/storage/iscsi/StatusFilter.tsx:78
 #: src/components/storage/iscsi/TargetsTable.tsx:473
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:167
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:285
@@ -4916,7 +4916,7 @@ msgid ""
 "manually.]"
 msgstr "未找到 iSCSI 引导固件表 (iBFT)。可以[手动配置]发起端。"
 
-#: src/components/storage/iscsi/StatusFilter.tsx:66
+#: src/components/storage/iscsi/StatusFilter.tsx:67
 msgid "Status filter toggle"
 msgstr "状态过滤开关"
 

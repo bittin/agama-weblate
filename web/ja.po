@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 08:57+0000\n"
+"POT-Creation-Date: 2026-11-05 14:32+0000\n"
 "PO-Revision-Date: 2026-11-05 03:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -901,7 +901,7 @@ msgid "%s moved to input for editing."
 msgstr "%s を編集のため入力欄に移動しました。"
 
 #: src/components/form/ArrayField.tsx:576
-#: src/components/form/multi-select-field/MultiSelectField.tsx:907
+#: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "編集または削除する項目を選択してください。もしくは [正しくない全ての項目を削"
@@ -941,19 +941,19 @@ msgstr "さらに %d 個の項目があります"
 
 #. TRANSLATORS: accessible name of the arrow that opens the list of
 #. values a field offers.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:784
+#: src/components/form/multi-select-field/MultiSelectField.tsx:785
 msgid "Show options"
 msgstr "オプションの表示"
 
 #. TRANSLATORS: accessible name of the button that empties a
 #. field holding several values.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:853
+#: src/components/form/multi-select-field/MultiSelectField.tsx:854
 msgid "Clear all"
 msgstr "すべて消去"
 
 #. TRANSLATORS: shown in place of the options when the text the
 #. user typed leaves nothing to choose from.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:878
+#: src/components/form/multi-select-field/MultiSelectField.tsx:879
 msgid "No options match"
 msgstr "該当するオプションがありません"
 
@@ -1294,7 +1294,7 @@ msgstr "セキュリティ"
 #: src/components/network/ConnectionDetails.tsx:229
 #: src/components/storage/dasd/DASDTable.tsx:319
 #: src/components/storage/dasd/DASDTable.tsx:514
-#: src/components/storage/iscsi/StatusFilter.tsx:77
+#: src/components/storage/iscsi/StatusFilter.tsx:78
 #: src/components/storage/iscsi/TargetsTable.tsx:473
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:167
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:285
@@ -5036,7 +5036,7 @@ msgstr ""
 "iSCSI Boot Firmware Table (iBFT) が見つかりませんでした。イニシエータの設定"
 "は [手作業で実施できます。]"
 
-#: src/components/storage/iscsi/StatusFilter.tsx:66
+#: src/components/storage/iscsi/StatusFilter.tsx:67
 msgid "Status filter toggle"
 msgstr "状態フィルタの切り替え"
 
