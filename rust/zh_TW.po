@@ -48,7 +48,6 @@ msgstr ""
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
-#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "無法從 {0} 載入程序檔。是否要重試？"
@@ -116,7 +115,6 @@ msgstr "請輸入 root 密碼："
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
-#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "未在 {0} 中進行驗證"
 
@@ -945,7 +943,6 @@ msgstr "執行套件程序檔時出現問題。"
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
-#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"

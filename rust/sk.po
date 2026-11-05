@@ -49,7 +49,6 @@ msgstr "Prerušiť"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
-#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "Nebolo možné načítať skript z {0}. Chcete to skúsiť znova?"
@@ -121,7 +120,6 @@ msgstr "Prosím, zadajte heslo správcu systému:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
-#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "Bez overenia v {0}"
 
@@ -975,7 +973,6 @@ msgstr "Pri spúšťaní skriptu balíka nastal problém."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
-#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"

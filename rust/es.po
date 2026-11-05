@@ -50,7 +50,6 @@ msgstr "Cancelar"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
-#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr ""
@@ -125,7 +124,6 @@ msgstr "Por favor, introduce la contraseña del usuario root:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
-#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "No autenticado en {0}"
 
@@ -989,7 +987,6 @@ msgstr "Problema al ejecutar un guion de paquete."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
-#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
