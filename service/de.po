@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 17:52+0000\n"
-"PO-Revision-Date: 2026-06-23 21:12+0000\n"
-"Last-Translator: Gemineo <vistatec@gemineo.de>\n"
+"PO-Revision-Date: 2026-11-05 17:16+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-"
 "service-master/de/>\n"
 "Language: de\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #. writes default to system making it persistent
 #: service/YaST2/lib/bootloader/sections.rb:53
 msgid "Failed to set default GRUB2 boot entry:"
-msgstr ""
+msgstr "Der Standard-GRUB2-Boot-Eintrag konnte nicht festgelegt werden:"
 
 #. Implementation for the API method #Probe.
 #: service/lib/agama/dbus/storage/dasd.rb:65
@@ -488,15 +488,16 @@ msgstr "Bootloader wird installiert"
 #. @return [Symbol] Action chosen by the user (:retry, :skip, :abort)
 #: service/lib/agama/storage/finisher.rb:186
 #: service/lib/agama/storage/finisher.rb:222
-#, fuzzy
 msgid "Writing bootloader configuration failed."
-msgstr "Bootloader-Systemkonfiguration wird geschrieben"
+msgstr "Schreiben der Bootloader-Konfiguration ist fehlgeschlagen."
 
 #: service/lib/agama/storage/finisher.rb:223
 msgid ""
 "Bootloader installation failed. Do you want to retry, skip or abort the "
 "installation?"
 msgstr ""
+"Bootloader-Installation fehlgeschlagen. Möchten Sie es erneut versuchen, die "
+"Installation überspringen oder abbrechen?"
 
 #. Step to finish the Y2Storage configuration
 #: service/lib/agama/storage/finisher.rb:243
