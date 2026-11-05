@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 14:32+0000\n"
+"POT-Creation-Date: 2026-11-05 17:16+0000\n"
 "PO-Revision-Date: 2026-08-09 11:13+0000\n"
 "Last-Translator: segfault <segfault.elf@outlook.com>\n"
 "Language-Team: Romanian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -211,7 +211,7 @@ msgid ""
 msgstr ""
 
 #: src/components/core/ExitInstallationDialog.tsx:73
-#: src/components/core/InstallerOptionsMenu.tsx:167
+#: src/components/core/InstallerOptionsMenu.tsx:169
 msgid "Exit installation"
 msgstr ""
 

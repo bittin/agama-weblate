@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 14:32+0000\n"
+"POT-Creation-Date: 2026-11-05 17:16+0000\n"
 "PO-Revision-Date: 2026-10-30 09:13+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/agama/agama-web/de/"
@@ -221,7 +221,7 @@ msgstr ""
 "Installation wird abgebrochen."
 
 #: src/components/core/ExitInstallationDialog.tsx:73
-#: src/components/core/InstallerOptionsMenu.tsx:167
+#: src/components/core/InstallerOptionsMenu.tsx:169
 msgid "Exit installation"
 msgstr "Installation beenden"
 
