@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-04 08:57+0000\n"
-"PO-Revision-Date: 2026-11-01 02:13+0000\n"
+"PO-Revision-Date: 2026-11-05 03:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11\n"
 
 #. TRANSLATORS: accessible name for the button that opens the appearance settings
 #: src/components/core/AppearanceSettings.tsx:63
@@ -727,9 +727,8 @@ msgstr "このウインドウは閉じてかまいません。"
 
 #. TRANSLATORS: accessible text while the terminal panel is loading
 #: src/components/core/TerminalDock.tsx:145
-#, fuzzy
 msgid "Loading terminal"
-msgstr "ストレージを読み込んでいます"
+msgstr "端末を読み込んでいます"
 
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
