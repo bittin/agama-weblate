@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 08:57+0000\n"
+"POT-Creation-Date: 2026-11-05 14:32+0000\n"
 "PO-Revision-Date: 2026-07-24 19:12+0000\n"
 "Last-Translator: Samanta Magalhaes <samanta_texttrans@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/agama/"
@@ -907,7 +907,7 @@ msgid "%s moved to input for editing."
 msgstr "%s movida para entrada de edição."
 
 #: src/components/form/ArrayField.tsx:576
-#: src/components/form/multi-select-field/MultiSelectField.tsx:907
+#: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "Selecione as entradas para editar ou as remova. Se preferir, [remova todas "
@@ -947,21 +947,21 @@ msgstr "Ler mais"
 
 #. TRANSLATORS: accessible name of the arrow that opens the list of
 #. values a field offers.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:784
+#: src/components/form/multi-select-field/MultiSelectField.tsx:785
 #, fuzzy
 msgid "Show options"
 msgstr "Mostrar opções globais"
 
 #. TRANSLATORS: accessible name of the button that empties a
 #. field holding several values.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:853
+#: src/components/form/multi-select-field/MultiSelectField.tsx:854
 #, fuzzy
 msgid "Clear all"
 msgstr "Limpar"
 
 #. TRANSLATORS: shown in place of the options when the text the
 #. user typed leaves nothing to choose from.
-#: src/components/form/multi-select-field/MultiSelectField.tsx:878
+#: src/components/form/multi-select-field/MultiSelectField.tsx:879
 #, fuzzy
 msgid "No options match"
 msgstr "Nenhum padrão correspondente"
@@ -1294,7 +1294,7 @@ msgstr "Segurança"
 #: src/components/network/ConnectionDetails.tsx:229
 #: src/components/storage/dasd/DASDTable.tsx:319
 #: src/components/storage/dasd/DASDTable.tsx:514
-#: src/components/storage/iscsi/StatusFilter.tsx:77
+#: src/components/storage/iscsi/StatusFilter.tsx:78
 #: src/components/storage/iscsi/TargetsTable.tsx:473
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:167
 #: src/components/storage/zfcp/ZFCPDevicesTable.tsx:285
@@ -5101,7 +5101,7 @@ msgstr ""
 "Nenhuma Tabela de Firmware de Inicialização iSCSI (iBFT) encontrada. É "
 "possível [configurar manualmente] o iniciador."
 
-#: src/components/storage/iscsi/StatusFilter.tsx:66
+#: src/components/storage/iscsi/StatusFilter.tsx:67
 msgid "Status filter toggle"
 msgstr "Alternar filtro de status"
 
