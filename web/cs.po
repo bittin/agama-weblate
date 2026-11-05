@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 14:32+0000\n"
+"POT-Creation-Date: 2026-11-05 17:16+0000\n"
 "PO-Revision-Date: 2026-07-23 13:12+0000\n"
 "Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
@@ -217,7 +217,7 @@ msgid ""
 msgstr ""
 
 #: src/components/core/ExitInstallationDialog.tsx:73
-#: src/components/core/InstallerOptionsMenu.tsx:167
+#: src/components/core/InstallerOptionsMenu.tsx:169
 #, fuzzy
 msgid "Exit installation"
 msgstr "Pouze při instalaci"
