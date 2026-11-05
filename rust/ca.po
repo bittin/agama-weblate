@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 13:11+0000\n"
+"POT-Creation-Date: 2026-11-05 15:49+0000\n"
 "PO-Revision-Date: 2026-10-01 13:13+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -50,6 +50,7 @@ msgstr "Avorta"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "No s'ha pogut carregar l'script des de {0}. Voleu tornar-ho a provar?"
@@ -123,6 +124,7 @@ msgstr "Si us plau, introduïu la contrasenya d'arrel:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "No autenticat a {0}"
 
@@ -875,51 +877,51 @@ msgstr "Configuració de l'accés remot"
 msgid "Setting up the hostname"
 msgstr "Establiment del nom de l'ordinador"
 
-#: agama-manager/src/actions.rs:424
+#: agama-manager/src/actions.rs:425
 msgid "Setting up the network proxy"
 msgstr "Configuració del servidor intermediari de xarxa"
 
-#: agama-manager/src/actions.rs:435
+#: agama-manager/src/actions.rs:436
 msgid "Setting up NTP"
 msgstr "Configuració de l'NTP"
 
-#: agama-manager/src/actions.rs:445
+#: agama-manager/src/actions.rs:446
 msgid "Storing localization settings"
 msgstr "Emmagatzemar la configuració de localització"
 
-#: agama-manager/src/actions.rs:455
+#: agama-manager/src/actions.rs:456
 msgid "Storing users settings"
 msgstr "Desament de la configuració dels usuaris"
 
-#: agama-manager/src/actions.rs:565
+#: agama-manager/src/actions.rs:569
 msgid "Configuring iSCSI devices"
 msgstr "Configuració de dispositius iSCSI"
 
-#: agama-manager/src/actions.rs:590
+#: agama-manager/src/actions.rs:594
 msgid "Configuring zFCP devices"
 msgstr "Configuració de dispositius zFCP"
 
-#: agama-manager/src/actions.rs:616
+#: agama-manager/src/actions.rs:620
 msgid "Configuring DASD devices"
 msgstr "Configuració de dispositius DASD"
 
-#: agama-manager/src/actions.rs:642
+#: agama-manager/src/actions.rs:646
 msgid "Setting up the network"
 msgstr "Configuració de la xarxa"
 
-#: agama-manager/src/actions.rs:671
+#: agama-manager/src/actions.rs:675
 msgid "Preparing the storage proposal"
 msgstr "Preparació de la proposta d'emmagatzematge"
 
-#: agama-manager/src/actions.rs:701
+#: agama-manager/src/actions.rs:705
 msgid "Storing bootloader settings"
 msgstr "Desament de la configuració del carregador d'arrencada"
 
-#: agama-manager/src/actions.rs:735
+#: agama-manager/src/actions.rs:739
 msgid "Preparing the software proposal"
 msgstr "Preparació de la proposta de programari"
 
-#: agama-manager/src/actions.rs:765
+#: agama-manager/src/actions.rs:769
 msgid "Configuring SELinux"
 msgstr "Configuració de SELinux"
 
@@ -985,6 +987,7 @@ msgstr "Hi ha hagut un problema en executar un script del paquet."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -996,7 +999,7 @@ msgstr ""
 msgid "Skip"
 msgstr "Omet"
 
-#: agama-software/src/service.rs:295
+#: agama-software/src/service.rs:297
 msgid ""
 "Due to an internal error, it was not possible to create a software proposal."
 msgstr ""

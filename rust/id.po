@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 13:11+0000\n"
+"POT-Creation-Date: 2026-11-05 15:49+0000\n"
 "PO-Revision-Date: 2026-10-20 15:13+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -50,6 +50,7 @@ msgstr "Batalkan"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr ""
@@ -125,6 +126,7 @@ msgstr "Silakan masukkan kata sandi root:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "Belum terotentikasi di {0}"
 
@@ -877,51 +879,51 @@ msgstr "Mengkonfigurasi akses jarak jauh"
 msgid "Setting up the hostname"
 msgstr "Menyiapkan nama host"
 
-#: agama-manager/src/actions.rs:424
+#: agama-manager/src/actions.rs:425
 msgid "Setting up the network proxy"
 msgstr "Menyiapkan proksi jaringan"
 
-#: agama-manager/src/actions.rs:435
+#: agama-manager/src/actions.rs:436
 msgid "Setting up NTP"
 msgstr "Mengatur NTP"
 
-#: agama-manager/src/actions.rs:445
+#: agama-manager/src/actions.rs:446
 msgid "Storing localization settings"
 msgstr "Menyimpan pengaturan lokalisasi"
 
-#: agama-manager/src/actions.rs:455
+#: agama-manager/src/actions.rs:456
 msgid "Storing users settings"
 msgstr "Menyimpan pengaturan pengguna"
 
-#: agama-manager/src/actions.rs:565
+#: agama-manager/src/actions.rs:569
 msgid "Configuring iSCSI devices"
 msgstr "Mengonfigurasi perangkat iSCSI"
 
-#: agama-manager/src/actions.rs:590
+#: agama-manager/src/actions.rs:594
 msgid "Configuring zFCP devices"
 msgstr "Mengonfigurasi perangkat zFCP"
 
-#: agama-manager/src/actions.rs:616
+#: agama-manager/src/actions.rs:620
 msgid "Configuring DASD devices"
 msgstr "Mengonfigurasi perangkat DASD"
 
-#: agama-manager/src/actions.rs:642
+#: agama-manager/src/actions.rs:646
 msgid "Setting up the network"
 msgstr "Menyiapkan jaringan"
 
-#: agama-manager/src/actions.rs:671
+#: agama-manager/src/actions.rs:675
 msgid "Preparing the storage proposal"
 msgstr "Menyiapkan usulan penyimpanan"
 
-#: agama-manager/src/actions.rs:701
+#: agama-manager/src/actions.rs:705
 msgid "Storing bootloader settings"
 msgstr "Menyimpan pengaturan bootloader"
 
-#: agama-manager/src/actions.rs:735
+#: agama-manager/src/actions.rs:739
 msgid "Preparing the software proposal"
 msgstr "Menyiapkan usulan perangkat lunak"
 
-#: agama-manager/src/actions.rs:765
+#: agama-manager/src/actions.rs:769
 msgid "Configuring SELinux"
 msgstr "Mengkonfigurasi SELinux"
 
@@ -987,6 +989,7 @@ msgstr "Terjadi masalah saat menjalankan skrip paket."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -998,7 +1001,7 @@ msgstr ""
 msgid "Skip"
 msgstr "Lewati"
 
-#: agama-software/src/service.rs:295
+#: agama-software/src/service.rs:297
 msgid ""
 "Due to an internal error, it was not possible to create a software proposal."
 msgstr ""

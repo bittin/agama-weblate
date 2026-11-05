@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 13:11+0000\n"
+"POT-Creation-Date: 2026-11-05 15:49+0000\n"
 "PO-Revision-Date: 2026-10-01 17:14+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -49,6 +49,7 @@ msgstr "Prerušiť"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "Nebolo možné načítať skript z {0}. Chcete to skúsiť znova?"
@@ -120,6 +121,7 @@ msgstr "Prosím, zadajte heslo správcu systému:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "Bez overenia v {0}"
 
@@ -863,51 +865,51 @@ msgstr "Konfigurácia vzdialeného prístupu"
 msgid "Setting up the hostname"
 msgstr "Nastavenie názvu hostiteľa"
 
-#: agama-manager/src/actions.rs:424
+#: agama-manager/src/actions.rs:425
 msgid "Setting up the network proxy"
 msgstr "Nastavenie sieťového proxy"
 
-#: agama-manager/src/actions.rs:435
+#: agama-manager/src/actions.rs:436
 msgid "Setting up NTP"
 msgstr "Nastavenie NTP"
 
-#: agama-manager/src/actions.rs:445
+#: agama-manager/src/actions.rs:446
 msgid "Storing localization settings"
 msgstr "Ukladanie nastavení lokalizácie"
 
-#: agama-manager/src/actions.rs:455
+#: agama-manager/src/actions.rs:456
 msgid "Storing users settings"
 msgstr "Ukladanie nastavení používateľov"
 
-#: agama-manager/src/actions.rs:565
+#: agama-manager/src/actions.rs:569
 msgid "Configuring iSCSI devices"
 msgstr "Konfigurácia zariadení iSCSI"
 
-#: agama-manager/src/actions.rs:590
+#: agama-manager/src/actions.rs:594
 msgid "Configuring zFCP devices"
 msgstr "Konfigurácia zariadení zFCP"
 
-#: agama-manager/src/actions.rs:616
+#: agama-manager/src/actions.rs:620
 msgid "Configuring DASD devices"
 msgstr "Konfigurácia zariadení DASD"
 
-#: agama-manager/src/actions.rs:642
+#: agama-manager/src/actions.rs:646
 msgid "Setting up the network"
 msgstr "Nastavenie siete"
 
-#: agama-manager/src/actions.rs:671
+#: agama-manager/src/actions.rs:675
 msgid "Preparing the storage proposal"
 msgstr "Príprava návrhu úložiska"
 
-#: agama-manager/src/actions.rs:701
+#: agama-manager/src/actions.rs:705
 msgid "Storing bootloader settings"
 msgstr "Ukladanie nastavení správcu štartu"
 
-#: agama-manager/src/actions.rs:735
+#: agama-manager/src/actions.rs:739
 msgid "Preparing the software proposal"
 msgstr "Príprava softvérového návrhu"
 
-#: agama-manager/src/actions.rs:765
+#: agama-manager/src/actions.rs:769
 msgid "Configuring SELinux"
 msgstr "Konfigurácia SELinux"
 
@@ -973,6 +975,7 @@ msgstr "Pri spúšťaní skriptu balíka nastal problém."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -983,7 +986,7 @@ msgstr ""
 msgid "Skip"
 msgstr "Preskočiť"
 
-#: agama-software/src/service.rs:295
+#: agama-software/src/service.rs:297
 msgid ""
 "Due to an internal error, it was not possible to create a software proposal."
 msgstr "Z dôvodu internej chyby nebolo možné vytvoriť návrh softvéru."

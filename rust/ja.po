@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 13:11+0000\n"
+"POT-Creation-Date: 2026-11-05 15:49+0000\n"
 "PO-Revision-Date: 2026-10-02 04:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -49,6 +49,7 @@ msgstr "中止"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "{0} からスクリプトを読み込むことができませんでした。再試行しますか？"
@@ -120,6 +121,7 @@ msgstr "root のパスワードを入力してください:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "{0} では認証されていません"
 
@@ -870,51 +872,51 @@ msgstr "リモートアクセスを設定しています"
 msgid "Setting up the hostname"
 msgstr "ホスト名を設定しています"
 
-#: agama-manager/src/actions.rs:424
+#: agama-manager/src/actions.rs:425
 msgid "Setting up the network proxy"
 msgstr "ネットワークプロキシを設定しています"
 
-#: agama-manager/src/actions.rs:435
+#: agama-manager/src/actions.rs:436
 msgid "Setting up NTP"
 msgstr "NTP を設定しています"
 
-#: agama-manager/src/actions.rs:445
+#: agama-manager/src/actions.rs:446
 msgid "Storing localization settings"
 msgstr "言語設定を保存しています"
 
-#: agama-manager/src/actions.rs:455
+#: agama-manager/src/actions.rs:456
 msgid "Storing users settings"
 msgstr "ユーザ設定を保存しています"
 
-#: agama-manager/src/actions.rs:565
+#: agama-manager/src/actions.rs:569
 msgid "Configuring iSCSI devices"
 msgstr "iSCSI デバイスを設定しています"
 
-#: agama-manager/src/actions.rs:590
+#: agama-manager/src/actions.rs:594
 msgid "Configuring zFCP devices"
 msgstr "zFCP デバイスを設定しています"
 
-#: agama-manager/src/actions.rs:616
+#: agama-manager/src/actions.rs:620
 msgid "Configuring DASD devices"
 msgstr "DASD デバイスを設定しています"
 
-#: agama-manager/src/actions.rs:642
+#: agama-manager/src/actions.rs:646
 msgid "Setting up the network"
 msgstr "ネットワークを設定しています"
 
-#: agama-manager/src/actions.rs:671
+#: agama-manager/src/actions.rs:675
 msgid "Preparing the storage proposal"
 msgstr "ストレージの提案内容を準備しています"
 
-#: agama-manager/src/actions.rs:701
+#: agama-manager/src/actions.rs:705
 msgid "Storing bootloader settings"
 msgstr "ブートローダ設定を保存しています"
 
-#: agama-manager/src/actions.rs:735
+#: agama-manager/src/actions.rs:739
 msgid "Preparing the software proposal"
 msgstr "ソフトウエアの提案内容を準備しています"
 
-#: agama-manager/src/actions.rs:765
+#: agama-manager/src/actions.rs:769
 msgid "Configuring SELinux"
 msgstr "SELinux を設定しています"
 
@@ -980,6 +982,7 @@ msgstr "パッケージスクリプトの実行にあたって問題が発生し
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -990,7 +993,7 @@ msgstr ""
 msgid "Skip"
 msgstr "飛ばす"
 
-#: agama-software/src/service.rs:295
+#: agama-software/src/service.rs:297
 msgid ""
 "Due to an internal error, it was not possible to create a software proposal."
 msgstr "内部エラーにより、ソフトウエアの提案内容を作成できませんでした。"

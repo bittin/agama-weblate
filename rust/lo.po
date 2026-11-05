@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 13:11+0000\n"
+"POT-Creation-Date: 2026-11-05 15:49+0000\n"
 "PO-Revision-Date: 2026-08-19 15:13+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -48,6 +48,7 @@ msgstr ""
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "ບໍ່ສາມາດໂຫລດສະຄຣິບຈາກ {0} ໄດ້. ເຈົ້າຕ້ອງການລອງໃໝ່ບໍ່?"
@@ -118,6 +119,7 @@ msgstr "ກະລຸນາປ້ອນລະຫັດຜ່ານ root:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "ຍັງບໍ່ໄດ້ຢືນຢັນຕົວຕົນໃນ {0}"
 
@@ -847,51 +849,51 @@ msgstr "ກຳລັງຕັ້ງຄ່າການເຂົ້າເຖິງ
 msgid "Setting up the hostname"
 msgstr "ກຳລັງຕັ້ງຄ່າຊື່ເຄື່ອງ (hostname)"
 
-#: agama-manager/src/actions.rs:424
+#: agama-manager/src/actions.rs:425
 msgid "Setting up the network proxy"
 msgstr "ກຳລັງຕັ້ງຄ່າພຣັອກຊີເຄືອຂ່າຍ"
 
-#: agama-manager/src/actions.rs:435
+#: agama-manager/src/actions.rs:436
 msgid "Setting up NTP"
 msgstr "ກຳລັງຕັ້ງຄ່າ NTP"
 
-#: agama-manager/src/actions.rs:445
+#: agama-manager/src/actions.rs:446
 msgid "Storing localization settings"
 msgstr "ກຳລັງບັນທຶກການຕັ້ງຄ່າທ້ອງຖິ່ນ"
 
-#: agama-manager/src/actions.rs:455
+#: agama-manager/src/actions.rs:456
 msgid "Storing users settings"
 msgstr "ກຳລັງບັນທຶກການຕັ້ງຄ່າຜູ້ໃຊ້"
 
-#: agama-manager/src/actions.rs:565
+#: agama-manager/src/actions.rs:569
 msgid "Configuring iSCSI devices"
 msgstr "ກຳລັງຕັ້ງຄ່າອຸປະກອນ iSCSI"
 
-#: agama-manager/src/actions.rs:590
+#: agama-manager/src/actions.rs:594
 msgid "Configuring zFCP devices"
 msgstr "ກຳລັງຕັ້ງຄ່າອຸປະກອນ zFCP"
 
-#: agama-manager/src/actions.rs:616
+#: agama-manager/src/actions.rs:620
 msgid "Configuring DASD devices"
 msgstr "ກຳລັງຕັ້ງຄ່າອຸປະກອນ DASD"
 
-#: agama-manager/src/actions.rs:642
+#: agama-manager/src/actions.rs:646
 msgid "Setting up the network"
 msgstr "ກຳລັງຕັ້ງຄ່າເຄືອຂ່າຍ"
 
-#: agama-manager/src/actions.rs:671
+#: agama-manager/src/actions.rs:675
 msgid "Preparing the storage proposal"
 msgstr "ກຳລັງກະກຽມຂໍ້ສະເໜີໜ່ວຍຈັດເກັບຂໍ້ມູນ"
 
-#: agama-manager/src/actions.rs:701
+#: agama-manager/src/actions.rs:705
 msgid "Storing bootloader settings"
 msgstr "ກຳລັງບັນທຶກການຕັ້ງຄ່າບູດໂຫລດເດີ"
 
-#: agama-manager/src/actions.rs:735
+#: agama-manager/src/actions.rs:739
 msgid "Preparing the software proposal"
 msgstr "ກຳລັງກະກຽມຂໍ້ສະເໜີຊອບແວ"
 
-#: agama-manager/src/actions.rs:765
+#: agama-manager/src/actions.rs:769
 msgid "Configuring SELinux"
 msgstr "ກຳລັງຕັ້ງຄ່າ SELinux"
 
@@ -956,6 +958,7 @@ msgstr "ເກີດບັນຫາໃນການລັນສະຄຣິບຂ
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -965,7 +968,7 @@ msgstr "ຄີ {0} ({1}) ທີ່ມີ fingerprint {2} ແມ່ນບໍ່�
 msgid "Skip"
 msgstr "ຂ້າມ"
 
-#: agama-software/src/service.rs:295
+#: agama-software/src/service.rs:297
 msgid ""
 "Due to an internal error, it was not possible to create a software proposal."
 msgstr "ເນື່ອງຈາກເກີດຂໍ້ຜິດພາດພາຍໃນ, ຈຶ່ງບໍ່ສາມາດສ້າງຂໍ້ສະເໜີຊອບແວໄດ້."
