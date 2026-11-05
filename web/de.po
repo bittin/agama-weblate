@@ -470,9 +470,8 @@ msgstr ""
 "erneut."
 
 #: src/components/core/LoginPage.tsx:44
-#, fuzzy
 msgid "Could not authenticate against the server"
-msgstr "Die Authentifizierung beim Server war nicht möglich."
+msgstr "Die Authentifizierung beim Server war nicht möglich"
 
 #. TRANSLATORS: Title for a form to provide the password for the root user. %s
 #. will be replaced by "root"
@@ -739,9 +738,8 @@ msgstr "Sie können dieses Fenster gefahrlos schließen."
 
 #. TRANSLATORS: accessible text while the terminal panel is loading
 #: src/components/core/TerminalDock.tsx:145
-#, fuzzy
 msgid "Loading terminal"
-msgstr "Datenspeicher wird geladen"
+msgstr "Terminal wird geladen"
 
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
@@ -853,27 +851,24 @@ msgid "The terminal requires a larger screen size"
 msgstr "Das Terminal benötigt einen größeren Bildschirm"
 
 #: src/components/form/ArrayField.tsx:67
-#, fuzzy
 msgid ""
 "Enter to add, Backspace or Delete to remove, arrow keys to navigate entries, "
 "Escape to exit"
 msgstr ""
-"Eingabe oder Tab zum Hinzufügen, Rücktaste oder Entf zum Löschen, "
-"Pfeiltasten zum Navigieren zwischen den Einträgen, Esc zum Beenden"
+"Eingabe zum Hinzufügen, Rücktaste oder Entf zum Entfernen, Pfeiltasten zum "
+"Navigieren zwischen den Einträgen, Esc zum Beenden"
 
 #. TRANSLATORS: keyboard usage hint when entries exist.
 #: src/components/form/ArrayField.tsx:89
-#, fuzzy
 msgid "Enter to add, Backspace or Delete to remove, arrow keys to navigate"
 msgstr ""
-"Eingabe oder Tab zum Hinzufügen, Rücktaste oder Entf zum Löschen, "
-"Pfeiltasten zum Navigieren"
+"Eingabe zum Hinzufügen, Rücktaste oder Entf zum Entfernen, Pfeiltasten zum "
+"Navigieren"
 
 #. TRANSLATORS: keyboard usage hint when field is empty.
 #: src/components/form/ArrayField.tsx:91
-#, fuzzy
 msgid "Enter to add"
-msgstr "Eingabe oder Tab zum Hinzufügen"
+msgstr "Eingabe zum Hinzufügen"
 
 #. TRANSLATORS: screen reader announcement when a duplicate entry is skipped. %s is the entry value.
 #: src/components/form/ArrayField.tsx:363
@@ -6539,7 +6534,7 @@ msgstr "Kein Link"
 #. report how fast it is, e.g. a wireless or a virtual one.
 #: src/utils/network.ts:143
 msgid "Link up"
-msgstr ""
+msgstr "Anschließen"
 
 #: src/utils/network.ts:196
 msgid "Ethernet"

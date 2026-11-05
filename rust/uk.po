@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-05 15:49+0000\n"
-"PO-Revision-Date: 2026-10-03 20:13+0000\n"
+"PO-Revision-Date: 2026-11-05 17:16+0000\n"
 "Last-Translator: Eugene Krater <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-"
 "rust-master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: agama-autoinstall/src/auto_loader.rs:142
 msgid ""
@@ -817,15 +817,15 @@ msgstr "Не вдалося записати файл %s. Спробувати �
 
 #: agama-manager/src/actions.rs:78
 msgid "Prepare the system"
-msgstr "Підготуйте систему"
+msgstr "Підготовка системи"
 
 #: agama-manager/src/actions.rs:79
 msgid "Install software"
-msgstr "Встановити програмне забезпечення"
+msgstr "Встановлення програм"
 
 #: agama-manager/src/actions.rs:80
 msgid "Configure the system"
-msgstr "Налаштуйте систему"
+msgstr "Налаштування системи"
 
 #: agama-manager/src/actions.rs:94
 msgid "Preparing storage"
