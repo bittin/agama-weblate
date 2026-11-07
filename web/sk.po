@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-05 17:16+0000\n"
-"PO-Revision-Date: 2026-11-01 15:13+0000\n"
+"PO-Revision-Date: 2026-11-07 19:13+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
-"Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/sk/"
-">\n"
+"Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/"
+"sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #. TRANSLATORS: accessible name for the button that opens the appearance settings
 #: src/components/core/AppearanceSettings.tsx:63
@@ -731,9 +731,8 @@ msgstr "Toto okno môžete bezpečne zatvoriť."
 
 #. TRANSLATORS: accessible text while the terminal panel is loading
 #: src/components/core/TerminalDock.tsx:145
-#, fuzzy
 msgid "Loading terminal"
-msgstr "Otvoriť terminál"
+msgstr "Načítanie terminálu"
 
 #. TRANSLATORS: accessible name for the divider used to resize the
 #. terminal panel by dragging or with the arrow keys
