@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-05 17:16+0000\n"
-"PO-Revision-Date: 2026-11-07 19:13+0000\n"
+"PO-Revision-Date: 2026-11-08 16:13+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sk/>\n"
@@ -753,32 +753,32 @@ msgstr "Shift"
 #. TRANSLATORS: the Enter (or Return) key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:64
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #. TRANSLATORS: the space bar, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:66
 msgid "Space"
-msgstr ""
+msgstr "Medzerník"
 
 #. TRANSLATORS: the tabulator key, as labeled on the keyboard
 #: src/components/core/TerminalPane.tsx:68
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text smaller
 #: src/components/core/TerminalPane.tsx:90
 msgid "Decrease font size"
-msgstr ""
+msgstr "Zmenšiť veľkosť písma"
 
 #. TRANSLATORS: tooltip for the button that makes the terminal text bigger
 #: src/components/core/TerminalPane.tsx:92
 msgid "Increase font size"
-msgstr ""
+msgstr "Zväčšiť veľkosť písma"
 
 #. TRANSLATORS: tooltip for the button that clears the terminal output
 #: src/components/core/TerminalPane.tsx:94
 msgid "Clear terminal"
-msgstr ""
+msgstr "Vymazať terminál"
 
 #. TRANSLATORS: how to move the keyboard focus out of the terminal, where
 #. every key press otherwise goes to the shell. %1$s, %2$s and %3$s are the
@@ -786,7 +786,7 @@ msgstr ""
 #: src/components/core/TerminalPane.tsx:141
 #, javascript-format
 msgid "%1$s+%2$s+%3$s to move focus out"
-msgstr ""
+msgstr "%1$s+%2$s+%3$s na presunutie aktívnosti mimo"
 
 #. TRANSLATORS: shown over the terminal when it is reached with the keyboard,
 #. before entering the shell. %1$s and %2$s are the Enter and Space keys,
@@ -796,6 +796,8 @@ msgstr ""
 #, javascript-format
 msgid "Press %1$s or %2$s to type here, or %3$s to move on."
 msgstr ""
+"Stlačte %1$s alebo %2$s, ak tu chcete písať, alebo %3$s, ak chcete "
+"pokračovať."
 
 #. TRANSLATORS: shown right below the sentence above, as the way back out of
 #. the shell once inside. %1$s, %2$s and %3$s are the Ctrl, Shift and L keys,
@@ -803,7 +805,7 @@ msgstr ""
 #: src/components/core/TerminalPane.tsx:169
 #, javascript-format
 msgid "Then %1$s+%2$s+%3$s to move out."
-msgstr ""
+msgstr "Potom %1$s+%2$s+%3$s na odchod."
 
 #. TRANSLATORS: accessible name of the terminal surface, where the shell
 #. output is shown and typed into
@@ -811,7 +813,7 @@ msgstr ""
 #: src/components/core/TerminalPane.tsx:208
 #: src/components/core/TerminalShell.tsx:80
 msgid "Terminal"
-msgstr ""
+msgstr "Terminál"
 
 #. TRANSLATORS: tooltip and accessible name for the button that collapses the
 #. terminal panel to a bar, keeping the session
