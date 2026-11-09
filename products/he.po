@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-29 12:49+0000\n"
-"PO-Revision-Date: 2025-08-05 22:59+0000\n"
-"Last-Translator: a Rubes <aRubes@pm.me>\n"
+"PO-Revision-Date: 2026-11-09 17:22+0000\n"
+"Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.opensuse.org/projects/agama/agama-"
 "products-master/he/>\n"
 "Language: he\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 # TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:8
@@ -80,22 +80,22 @@ msgstr ""
 # TRANSLATORS: name of the installation mode for product "SUSE Linux Enterprise Server 16.1"
 #: leap_162.yaml:314 sles_162.yaml:370 sles_sap_162.yaml:357
 msgid "Immutable"
-msgstr ""
+msgstr "מערכת חסינה"
 
 # TRANSLATORS: description of installation mode "Immutable" for product "SUSE Linux Enterprise Server 16.1"
 #: leap_162.yaml:315 sles_162.yaml:371 sles_sap_162.yaml:358
 msgid "Immutable system with atomic updates"
-msgstr ""
+msgstr "מערכת חסינה עם עדכונים שחלופיים"
 
 # TRANSLATORS: name of the installation mode for product "SUSE Linux Enterprise Server 16.1"
 #: leap_162.yaml:224 sles_162.yaml:278 sles_sap_162.yaml:255
 msgid "Standard"
-msgstr ""
+msgstr "מערכת רגילה"
 
 # TRANSLATORS: description of installation mode "Standard" for product "SUSE Linux Enterprise Server 16.1"
 #: leap_162.yaml:225 sles_162.yaml:279 sles_sap_162.yaml:256
 msgid "Standard system"
-msgstr ""
+msgstr "מערכת רגילה"
 
 # TRANSLATORS: description of product "Leap 16.0 Beta"
 #: leap_162.yaml:10
