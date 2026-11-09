@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 17:16+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-04-25 16:04+0000\n"
 "Last-Translator: openSUSE Weblate user 1416 "
 "<alejoh@users.noreply.l10n.opensuse.org>\n"
@@ -532,13 +532,16 @@ msgstr "Passordene er ikke like"
 msgid "Password confirmation"
 msgstr "Passord bekreftelse"
 
-#. TRANSLATORS: Message to inform users which keyboard layout is active. %s
-#. will be replaced with the layout name (e.g., "de", "cn", "cz"). Keep
-#. square brackets around %s to apply special formatting in
-#. the UI.
-#: src/components/core/PasswordInput.tsx:69
+#. TRANSLATORS: Message to inform users which keyboard layout is active
+#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
+#. Example: "Using us keyboard".
+#.
+#. TRANSLATORS: Message to inform users which keyboard layout is active.
+#. %s will be replaced with the layout name (e.g., "de", "cn", "cz").
+#: src/components/core/PasswordInput.tsx:70
+#: src/components/form/MaskedField.tsx:86
 #, fuzzy, javascript-format
-msgid "Using [%s] keyboard layout"
+msgid "Using %s keyboard layout"
 msgstr "Endre tastaturoppsett"
 
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
@@ -547,12 +550,12 @@ msgstr "Endre tastaturoppsett"
 #.
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
 #. Keep square brackets to apply special formatting in the UI.
-#: src/components/core/PasswordInput.tsx:90
+#: src/components/core/PasswordInput.tsx:89
 #: src/components/form/MaskedField.tsx:116
 msgid "[CAPS LOCK] is on"
 msgstr ""
 
-#: src/components/core/PasswordInput.tsx:144
+#: src/components/core/PasswordInput.tsx:145
 #: src/components/form/MaskedField.tsx:194
 msgid "Password visibility button"
 msgstr "Passord synlighetsknapp"
@@ -927,15 +930,6 @@ msgstr ""
 #: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
-
-#. TRANSLATORS: Message to inform users which keyboard layout is active
-#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
-#. Example: "Using us keyboard".
-#.
-#: src/components/form/MaskedField.tsx:86
-#, fuzzy, javascript-format
-msgid "Using %s keyboard layout"
-msgstr "Endre tastaturoppsett"
 
 #: src/components/form/PreservedValueField.tsx:64
 #: src/components/product/product-selection-form/Form.tsx:66
@@ -6729,6 +6723,10 @@ msgstr "Wi-Fi"
 #: src/utils/network.ts:198
 msgid "Loopback"
 msgstr ""
+
+#, fuzzy, javascript-format
+#~ msgid "Using [%s] keyboard layout"
+#~ msgstr "Endre tastaturoppsett"
 
 #, fuzzy
 #~ msgid "logical volume"
