@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 15:49+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-11-05 17:16+0000\n"
 "Last-Translator: Eugene Krater <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-"
@@ -51,6 +51,7 @@ msgstr "Відмінити"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "Не вдалося завантажити скрипт із {0}. Спробувати ще раз?"
@@ -123,6 +124,7 @@ msgstr "Введіть пароль користувача root:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "Не авторизовано в {0}"
 
@@ -588,6 +590,11 @@ msgstr "Питання"
 msgid "Security"
 msgstr "Захист"
 
+#. TRANSLATORS: fallback for a scope not known to this client version
+#: agama-cli/src/monitor/ui.rs:77 agama-cli/src/monitor/ui/summary.rs:106
+msgid "Unknown"
+msgstr ""
+
 #: agama-cli/src/monitor/ui/content.rs:64
 msgid "Installation complete."
 msgstr "Встановлення завершено."
@@ -654,6 +661,12 @@ msgstr "Розташування"
 msgid "Value"
 msgstr "Значення"
 
+#: agama-cli/src/monitor/ui/question.rs:413
+msgid ""
+"This question needs a kind of answer this client version does not support. "
+"Choosing an action below might not answer it as intended."
+msgstr ""
+
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
 msgstr "Хост: "
@@ -703,7 +716,7 @@ msgstr "Налаштовуємо"
 msgid "Finished"
 msgstr "Завершено"
 
-#: agama-cli/src/monitor/ui/summary.rs:118
+#: agama-cli/src/monitor/ui/summary.rs:119
 msgid "Not selected yet"
 msgstr "Ще не вибрано"
 
@@ -985,6 +998,7 @@ msgstr "Виникла проблема із запуском скрипта п�
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -1070,31 +1084,35 @@ msgstr ""
 msgid "First user information is incomplete"
 msgstr "Інформація про першого користувача є неповною"
 
-#: agama-utils/src/api/problem_details.rs:120
+#: agama-utils/src/api/problem_details.rs:129
 msgid "Schema validation failed"
 msgstr "Помилка перевірки схеми"
 
-#: agama-utils/src/api/problem_details.rs:122
+#: agama-utils/src/api/problem_details.rs:131
 msgid "The provided configuration does not match the required schema"
 msgstr "Надана конфігурація не відповідає необхідній схемі"
 
-#: agama-utils/src/api/problem_details.rs:131
+#: agama-utils/src/api/problem_details.rs:140
 msgid "Invalid JSON"
 msgstr "Неправильний формат JSON"
 
-#: agama-utils/src/api/problem_details.rs:139
+#: agama-utils/src/api/problem_details.rs:148
 msgid "Internal server error"
 msgstr "Внутрішня помилка сервера"
 
-#: agama-utils/src/api/problem_details.rs:147
+#: agama-utils/src/api/problem_details.rs:156
 msgid "Unauthorized"
 msgstr "Не пройшов перевірку"
 
 #: agama-utils/src/api/problem_details.rs:205
+msgid "An error occurred that this client version doesn't recognize"
+msgstr ""
+
+#: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
 msgstr "Помилка:"
 
-#: agama-utils/src/api/problem_details.rs:208
+#: agama-utils/src/api/problem_details.rs:224
 msgid "Details:"
 msgstr "Подробиці:"
 

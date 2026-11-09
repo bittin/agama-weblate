@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 15:49+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-08-19 15:13+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -48,6 +48,7 @@ msgstr ""
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "ບໍ່ສາມາດໂຫລດສະຄຣິບຈາກ {0} ໄດ້. ເຈົ້າຕ້ອງການລອງໃໝ່ບໍ່?"
@@ -118,6 +119,7 @@ msgstr "ກະລຸນາປ້ອນລະຫັດຜ່ານ root:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "ຍັງບໍ່ໄດ້ຢືນຢັນຕົວຕົນໃນ {0}"
 
@@ -565,6 +567,11 @@ msgstr "ຄຳຖາມ"
 msgid "Security"
 msgstr "ຄວາມປອດໄພ"
 
+#. TRANSLATORS: fallback for a scope not known to this client version
+#: agama-cli/src/monitor/ui.rs:77 agama-cli/src/monitor/ui/summary.rs:106
+msgid "Unknown"
+msgstr ""
+
 #: agama-cli/src/monitor/ui/content.rs:64
 msgid "Installation complete."
 msgstr "ການຕິດຕັ້ງສຳເລັດແລ້ວ."
@@ -631,6 +638,12 @@ msgstr "ສະຖານທີ່"
 msgid "Value"
 msgstr "ຄ່າ"
 
+#: agama-cli/src/monitor/ui/question.rs:413
+msgid ""
+"This question needs a kind of answer this client version does not support. "
+"Choosing an action below might not answer it as intended."
+msgstr ""
+
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
 msgstr "ໂຮສທ໌: "
@@ -680,7 +693,7 @@ msgstr "ກຳລັງຕັ້ງຄ່າ"
 msgid "Finished"
 msgstr "ສຳເລັດແລ້ວ"
 
-#: agama-cli/src/monitor/ui/summary.rs:118
+#: agama-cli/src/monitor/ui/summary.rs:119
 msgid "Not selected yet"
 msgstr "ຍັງບໍ່ທັນໄດ້ເລືອກ"
 
@@ -956,6 +969,7 @@ msgstr "ເກີດບັນຫາໃນການລັນສະຄຣິບຂ
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -1036,31 +1050,35 @@ msgstr "ຈຳເປັນຕ້ອງໄດ້ກຳນົດຜູ້ໃຊ້
 msgid "First user information is incomplete"
 msgstr "ຂໍ້ມູນຂອງຜູ້ໃຊ້ທຳອິດຍັງບໍ່ຄົບຖ້ວນ"
 
-#: agama-utils/src/api/problem_details.rs:120
+#: agama-utils/src/api/problem_details.rs:129
 msgid "Schema validation failed"
 msgstr "ການກວດສອບ Schema ຫຼົ້ມເຫຼວ"
 
-#: agama-utils/src/api/problem_details.rs:122
+#: agama-utils/src/api/problem_details.rs:131
 msgid "The provided configuration does not match the required schema"
 msgstr "ການຕັ້ງຄ່າທີ່ລະບຸບໍ່ກົງກັບ schema ທີ່ຕ້ອງການ"
 
-#: agama-utils/src/api/problem_details.rs:131
+#: agama-utils/src/api/problem_details.rs:140
 msgid "Invalid JSON"
 msgstr "JSON ບໍ່ຖືກຕ້ອງ"
 
-#: agama-utils/src/api/problem_details.rs:139
+#: agama-utils/src/api/problem_details.rs:148
 msgid "Internal server error"
 msgstr "ຂໍ້ຜິດພາດພາຍໃນເຊີບເວີ"
 
-#: agama-utils/src/api/problem_details.rs:147
+#: agama-utils/src/api/problem_details.rs:156
 msgid "Unauthorized"
 msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ"
 
 #: agama-utils/src/api/problem_details.rs:205
+msgid "An error occurred that this client version doesn't recognize"
+msgstr ""
+
+#: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
 msgstr "ຂໍ້ຜິດພາດ:"
 
-#: agama-utils/src/api/problem_details.rs:208
+#: agama-utils/src/api/problem_details.rs:224
 msgid "Details:"
 msgstr "ລາຍລະອຽດ:"
 

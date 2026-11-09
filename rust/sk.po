@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 15:49+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-10-01 17:14+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-rust-"
@@ -49,6 +49,7 @@ msgstr "Prerušiť"
 
 #. TRANSLATORS: {0} is a URL
 #: agama-autoinstall/src/scripts.rs:135
+#, rust-format
 msgid ""
 "It was not possible to load the script from {0}. Do you want to try again?"
 msgstr "Nebolo možné načítať skript z {0}. Chcete to skúsiť znova?"
@@ -120,6 +121,7 @@ msgstr "Prosím, zadajte heslo správcu systému:"
 
 #. TRANSLATORS: {0} is a host name
 #: agama-cli/src/auth.rs:179
+#, rust-format
 msgid "Not authenticated in {0}"
 msgstr "Bez overenia v {0}"
 
@@ -578,6 +580,11 @@ msgstr "Otázky"
 msgid "Security"
 msgstr "Bezpečnosť"
 
+#. TRANSLATORS: fallback for a scope not known to this client version
+#: agama-cli/src/monitor/ui.rs:77 agama-cli/src/monitor/ui/summary.rs:106
+msgid "Unknown"
+msgstr ""
+
 #: agama-cli/src/monitor/ui/content.rs:64
 msgid "Installation complete."
 msgstr "Inštalácia bola dokončená."
@@ -644,6 +651,12 @@ msgstr "Umiestnenie"
 msgid "Value"
 msgstr "Hodnota"
 
+#: agama-cli/src/monitor/ui/question.rs:413
+msgid ""
+"This question needs a kind of answer this client version does not support. "
+"Choosing an action below might not answer it as intended."
+msgstr ""
+
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
 msgstr "Hostiteľ: "
@@ -693,7 +706,7 @@ msgstr "Konfigurácia"
 msgid "Finished"
 msgstr "Dokončené"
 
-#: agama-cli/src/monitor/ui/summary.rs:118
+#: agama-cli/src/monitor/ui/summary.rs:119
 msgid "Not selected yet"
 msgstr "Zatiaľ nevybrané"
 
@@ -973,6 +986,7 @@ msgstr "Pri spúšťaní skriptu balíka nastal problém."
 
 #. TRANSLATORS: substituting: key ID, (key name), fingerprint
 #: agama-software/src/callbacks/security.rs:112
+#, rust-format
 msgid ""
 "The key {0} ({1}) with fingerprint {2} is unknown. Do you want to trust this "
 "key?"
@@ -1058,31 +1072,35 @@ msgstr ""
 msgid "First user information is incomplete"
 msgstr "Informácie o prvom používateľovi sú neúplné"
 
-#: agama-utils/src/api/problem_details.rs:120
+#: agama-utils/src/api/problem_details.rs:129
 msgid "Schema validation failed"
 msgstr "Overenie schémy zlyhalo"
 
-#: agama-utils/src/api/problem_details.rs:122
+#: agama-utils/src/api/problem_details.rs:131
 msgid "The provided configuration does not match the required schema"
 msgstr "Poskytnutá konfigurácia nezodpovedá požadovanej schéme"
 
-#: agama-utils/src/api/problem_details.rs:131
+#: agama-utils/src/api/problem_details.rs:140
 msgid "Invalid JSON"
 msgstr "Neplatné JSON"
 
-#: agama-utils/src/api/problem_details.rs:139
+#: agama-utils/src/api/problem_details.rs:148
 msgid "Internal server error"
 msgstr "Interná chyba servera"
 
-#: agama-utils/src/api/problem_details.rs:147
+#: agama-utils/src/api/problem_details.rs:156
 msgid "Unauthorized"
 msgstr "Neoprávnené"
 
 #: agama-utils/src/api/problem_details.rs:205
+msgid "An error occurred that this client version doesn't recognize"
+msgstr ""
+
+#: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
 msgstr "Chyba:"
 
-#: agama-utils/src/api/problem_details.rs:208
+#: agama-utils/src/api/problem_details.rs:224
 msgid "Details:"
 msgstr "Podrobnosti:"
 
