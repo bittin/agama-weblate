@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:21+0000\n"
-"PO-Revision-Date: 2026-10-01 13:13+0000\n"
+"PO-Revision-Date: 2026-11-09 10:13+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/agama/agama-rust-"
 "master/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: agama-autoinstall/src/auto_loader.rs:142
 msgid ""
@@ -591,7 +591,7 @@ msgstr "Seguretat"
 #. TRANSLATORS: fallback for a scope not known to this client version
 #: agama-cli/src/monitor/ui.rs:77 agama-cli/src/monitor/ui/summary.rs:106
 msgid "Unknown"
-msgstr ""
+msgstr "Desconegut"
 
 #: agama-cli/src/monitor/ui/content.rs:64
 msgid "Installation complete."
@@ -664,6 +664,9 @@ msgid ""
 "This question needs a kind of answer this client version does not support. "
 "Choosing an action below might not answer it as intended."
 msgstr ""
+"Aquesta pregunta requereix un tipus de resposta que aquesta versió del "
+"client no admet. És possible que triar una de les accions següents no "
+"proporcioni la resposta que es pretenia."
 
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
@@ -1108,7 +1111,7 @@ msgstr "No autoritzat"
 
 #: agama-utils/src/api/problem_details.rs:205
 msgid "An error occurred that this client version doesn't recognize"
-msgstr ""
+msgstr "Hi ha hagut un error que aquesta versió del client no reconeix."
 
 #: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
