@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 17:16+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-07-27 04:12+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (China) <https://l10n.opensuse.org/projects/agama/"
@@ -505,14 +505,17 @@ msgstr "密码不匹配"
 msgid "Password confirmation"
 msgstr "确认密码"
 
-#. TRANSLATORS: Message to inform users which keyboard layout is active. %s
-#. will be replaced with the layout name (e.g., "de", "cn", "cz"). Keep
-#. square brackets around %s to apply special formatting in
-#. the UI.
-#: src/components/core/PasswordInput.tsx:69
+#. TRANSLATORS: Message to inform users which keyboard layout is active
+#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
+#. Example: "Using us keyboard".
+#.
+#. TRANSLATORS: Message to inform users which keyboard layout is active.
+#. %s will be replaced with the layout name (e.g., "de", "cn", "cz").
+#: src/components/core/PasswordInput.tsx:70
+#: src/components/form/MaskedField.tsx:86
 #, javascript-format
-msgid "Using [%s] keyboard layout"
-msgstr "使用 [%s] 键盘布局"
+msgid "Using %s keyboard layout"
+msgstr "使用 %s 键盘布局"
 
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
 #. Text inside square brackets [] will be formatted in bold.
@@ -520,12 +523,12 @@ msgstr "使用 [%s] 键盘布局"
 #.
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
 #. Keep square brackets to apply special formatting in the UI.
-#: src/components/core/PasswordInput.tsx:90
+#: src/components/core/PasswordInput.tsx:89
 #: src/components/form/MaskedField.tsx:116
 msgid "[CAPS LOCK] is on"
 msgstr "大写锁定已开启"
 
-#: src/components/core/PasswordInput.tsx:144
+#: src/components/core/PasswordInput.tsx:145
 #: src/components/form/MaskedField.tsx:194
 msgid "Password visibility button"
 msgstr "密码可见性按钮"
@@ -890,15 +893,6 @@ msgstr "%s 已移入输入框供编辑。"
 #: src/components/form/multi-select-field/MultiSelectField.tsx:908
 msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr "选中条目即可编辑或将其去除，您也可[去除所有无效条目]。"
-
-#. TRANSLATORS: Message to inform users which keyboard layout is active
-#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
-#. Example: "Using us keyboard".
-#.
-#: src/components/form/MaskedField.tsx:86
-#, javascript-format
-msgid "Using %s keyboard layout"
-msgstr "使用 %s 键盘布局"
 
 #: src/components/form/PreservedValueField.tsx:64
 #: src/components/product/product-selection-form/Form.tsx:66
@@ -6258,6 +6252,10 @@ msgstr "Wi-Fi"
 #: src/utils/network.ts:198
 msgid "Loopback"
 msgstr "回环"
+
+#, javascript-format
+#~ msgid "Using [%s] keyboard layout"
+#~ msgstr "使用 [%s] 键盘布局"
 
 #~ msgid "logical volume"
 #~ msgstr "逻辑卷"

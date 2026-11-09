@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 17:16+0000\n"
+"POT-Creation-Date: 2026-11-09 08:21+0000\n"
 "PO-Revision-Date: 2026-10-20 11:59+0000\n"
 "Last-Translator: Feike Donia <feikedonia@proton.me>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
@@ -510,14 +510,17 @@ msgstr "De wachtwoorden komen niet overeen"
 msgid "Password confirmation"
 msgstr "Wachtwoord bevestigen"
 
-#. TRANSLATORS: Message to inform users which keyboard layout is active. %s
-#. will be replaced with the layout name (e.g., "de", "cn", "cz"). Keep
-#. square brackets around %s to apply special formatting in
-#. the UI.
-#: src/components/core/PasswordInput.tsx:69
+#. TRANSLATORS: Message to inform users which keyboard layout is active
+#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
+#. Example: "Using us keyboard".
+#.
+#. TRANSLATORS: Message to inform users which keyboard layout is active.
+#. %s will be replaced with the layout name (e.g., "de", "cn", "cz").
+#: src/components/core/PasswordInput.tsx:70
+#: src/components/form/MaskedField.tsx:86
 #, javascript-format
-msgid "Using [%s] keyboard layout"
-msgstr "Toetsenbordindeling [%s] geselecteerd"
+msgid "Using %s keyboard layout"
+msgstr "Toetsenbordindeling ‘%s’ geselecteerd"
 
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
 #. Text inside square brackets [] will be formatted in bold.
@@ -525,12 +528,12 @@ msgstr "Toetsenbordindeling [%s] geselecteerd"
 #.
 #. TRANSLATORS: Warns users that CAPS LOCK is on.
 #. Keep square brackets to apply special formatting in the UI.
-#: src/components/core/PasswordInput.tsx:90
+#: src/components/core/PasswordInput.tsx:89
 #: src/components/form/MaskedField.tsx:116
 msgid "[CAPS LOCK] is on"
 msgstr "[CAPSLOCK] staat aan"
 
-#: src/components/core/PasswordInput.tsx:144
+#: src/components/core/PasswordInput.tsx:145
 #: src/components/form/MaskedField.tsx:194
 msgid "Password visibility button"
 msgstr "Wachtwoord zichtbaar maken"
@@ -901,15 +904,6 @@ msgid "Select entries to edit or remove them. Or [remove all invalid entries.]"
 msgstr ""
 "Velden selecteren om ze te bewerken of te verwijderen. Of [alle ongeldige "
 "velden verwijderen.]"
-
-#. TRANSLATORS: Message to inform users which keyboard layout is active
-#. %s will be replaced with the keyboard layout name (e.g., "US", "DE").
-#. Example: "Using us keyboard".
-#.
-#: src/components/form/MaskedField.tsx:86
-#, javascript-format
-msgid "Using %s keyboard layout"
-msgstr "Toetsenbordindeling ‘%s’ geselecteerd"
 
 #: src/components/form/PreservedValueField.tsx:64
 #: src/components/product/product-selection-form/Form.tsx:66
@@ -6751,6 +6745,10 @@ msgstr "WiFi"
 #: src/utils/network.ts:198
 msgid "Loopback"
 msgstr ""
+
+#, javascript-format
+#~ msgid "Using [%s] keyboard layout"
+#~ msgstr "Toetsenbordindeling [%s] geselecteerd"
 
 #~ msgid "logical volume"
 #~ msgstr "logisch volume"
