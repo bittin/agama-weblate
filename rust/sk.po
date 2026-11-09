@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:21+0000\n"
-"PO-Revision-Date: 2026-11-09 17:22+0000\n"
+"PO-Revision-Date: 2026-11-09 18:13+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-rust-"
 "master/sk/>\n"
@@ -654,6 +654,8 @@ msgid ""
 "This question needs a kind of answer this client version does not support. "
 "Choosing an action below might not answer it as intended."
 msgstr ""
+"Táto otázka si vyžaduje typ odpovede, ktorý táto verzia klienta nepodporuje. "
+"Výber jednej z nižšie uvedených akcií nemusí poskytnúť požadovanú odpoveď."
 
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
@@ -1091,7 +1093,7 @@ msgstr "Neoprávnené"
 
 #: agama-utils/src/api/problem_details.rs:205
 msgid "An error occurred that this client version doesn't recognize"
-msgstr ""
+msgstr "Vyskytla sa chyba, ktorú táto verzia klienta nerozpoznáva"
 
 #: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
