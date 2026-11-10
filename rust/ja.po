@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:21+0000\n"
-"PO-Revision-Date: 2026-11-10 01:13+0000\n"
+"PO-Revision-Date: 2026-11-10 02:13+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-rust-"
 "master/ja/>\n"
@@ -661,6 +661,8 @@ msgid ""
 "This question needs a kind of answer this client version does not support. "
 "Choosing an action below might not answer it as intended."
 msgstr ""
+"この質問には、現在のクライアントバージョンでは対応していない種類の回答が必要"
+"です。下記で操作を選択しても、期待通りに応答しない可能性があります。"
 
 #: agama-cli/src/monitor/ui/summary.rs:47
 msgid "Host: "
@@ -1096,7 +1098,7 @@ msgstr "未認証"
 
 #: agama-utils/src/api/problem_details.rs:205
 msgid "An error occurred that this client version doesn't recognize"
-msgstr ""
+msgstr "このクライアントバージョンでは解釈できないエラーが発生しました"
 
 #: agama-utils/src/api/problem_details.rs:221
 msgid "Error:"
