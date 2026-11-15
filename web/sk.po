@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 10:46+0000\n"
-"PO-Revision-Date: 2026-11-13 17:19+0000\n"
+"PO-Revision-Date: 2026-11-15 17:21+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/agama/agama-web/"
 "sk/>\n"
@@ -967,14 +967,14 @@ msgstr "Použiť \"%s\""
 #: src/components/form/multi-select-field/messages.ts:57
 #, javascript-format
 msgid "%s added but is invalid: %s. Select it to edit."
-msgstr ""
+msgstr "%s bolo pridané, ale je neplatné: %s. Vybrať ho na úpravu."
 
 #. TRANSLATORS: said when the field already holds the value the user is
 #. adding, so nothing changes. %s is the value.
 #: src/components/form/multi-select-field/messages.ts:68
 #, javascript-format
 msgid "%s is already selected."
-msgstr ""
+msgstr "%s je už vybrané."
 
 #. TRANSLATORS: said when the text the user typed names none of the values on
 #. offer, and the field only takes those. %s is the text.
